@@ -1,0 +1,56 @@
+/* styles.css */
+
+/* Basic styling for body and h1 */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    color: #444;
+}
+
+/* Hide elements initially */
+#hit-button, #stand-button, #new-round-button, #play-again-button {
+    display: none;
+}
+
+#bet-info {
+    margin-bottom: 20px;
+}
+
+/* Styling for game controls */
+#game-controls {
+    margin-top: 20px;
+}
+
+/* Styling for card display areas */
+#player-hand, #dealer-hand {
+    margin-top: 20px;
+}
+
+#player-cards, #dealer-cards {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#player-total, #dealer-total {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Styling for game status */
+#game-status {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d9534f;
+    margin-top: 20px;
+}
+
+/* Styling for hidden dealer card */
+#dealer-hidden-card {
+    font-style: italic;
+}
+
